@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width= "match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo5"
+    tools:context="com.example.inelec.ResgistroMedidor">
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/txtRMId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:gravity="center|center_vertical|left"
+                    android:hint="Codigo"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtRMContrato"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:hint="Numero de Contrato"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtRMNombreTitular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:hint="Nombre del Titular"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtRMDireccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:hint="Direccion"
+                    android:inputType="textPersonName" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnRM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:background="#CF3D2E"
+        android:textColor="#372E59"
+        android:textStyle="bold"
+            android:text="REGISTRAR" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+     <ListView
+        android:id="@+id/menuLateral"
+        android:layout_width= "200dp"
+    	android:layout_height="match_parent"
+    	android:layout_gravity="start"
+    	android:divider="@null"
+    	android:dividerHeight="0dp"
+    	android:background="#C2C2C2"/>
+     
+</android.support.v4.widget.DrawerLayout>

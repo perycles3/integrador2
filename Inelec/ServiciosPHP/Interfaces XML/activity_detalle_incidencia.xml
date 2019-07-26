@@ -1,0 +1,153 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    android:background="@drawable/fondo5"
+    tools:context="com.example.inelec.Incidencias" >
+    
+    <LinearLayout
+        android:id="@+id/linearcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/codigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="CODIGO"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left" >
+            
+            <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Incidencia: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+        	    android:id="@+id/txtTipo"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="Medium Text"
+        	    android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left">
+        	
+            <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubicacion: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+            android:id="@+id/txtUbicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+    	
+        <LinearLayout
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left">
+        	
+            <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero de Contrato: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+            android:id="@+id/txtContrato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+    	
+         <LinearLayout
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left">
+        	
+            <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de Titular:  "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+            android:id="@+id/txtNombreT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+ 	   	
+          <LinearLayout
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left">
+        	
+            <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha de Inicio: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+            android:id="@+id/txtFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+    	
+        <Button
+            android:id="@+id/btnAtender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#CF3D2E"
+        android:textColor="#372E59"
+        android:textStyle="bold"
+            android:text="ATENDER" />
+  		    	    
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/menuLateral"
+        android:layout_width= "200dp"
+    	android:layout_height="match_parent"
+    	android:layout_gravity="start"
+    	android:divider="@null"
+    	android:dividerHeight="0dp"
+    	android:background="#C2C2C2"/>
+    
+    
+</android.support.v4.widget.DrawerLayout>

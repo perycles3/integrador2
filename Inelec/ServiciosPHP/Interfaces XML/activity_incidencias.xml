@@ -1,0 +1,33 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo5"
+    tools:context="com.example.inelec.Incidencias" >
+    
+    <LinearLayout
+        android:id="@+id/linearcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    	
+        <ListView
+        android:id="@+id/listaIncidencias"
+        android:layout_width= "match_parent"
+    	android:layout_height="match_parent"></ListView>
+    	    	    
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/menuLateral"
+        android:layout_width= "200dp"
+    	android:layout_height="match_parent"
+    	android:layout_gravity="start"
+    	android:divider="@null"
+    	android:dividerHeight="0dp"
+    	android:background="#C2C2C2"/>
+    
+    
+</android.support.v4.widget.DrawerLayout>
+

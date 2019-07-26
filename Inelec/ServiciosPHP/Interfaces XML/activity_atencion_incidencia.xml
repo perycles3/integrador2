@@ -1,0 +1,200 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearcontent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo5"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/codigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="CODIGO"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left" >
+            
+            <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Incidencia: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+        	    android:id="@+id/txtTipo"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="Medium Text"
+        	    android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        </LinearLayout>
+        
+        <LinearLayout
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left">
+        	
+            <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubicacion: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+            android:id="@+id/txtUbicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+    	
+        <LinearLayout
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left">
+        	
+            <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero de Contrato: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+            android:id="@+id/txtContrato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+    	
+         <LinearLayout
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left">
+        	
+            <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de Titular:  "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+            android:id="@+id/txtNombreT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+    	
+         <LinearLayout
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left">
+        	
+            <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Operario:  "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+            android:id="@+id/txtOperario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+ 	   	
+          <LinearLayout
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left">
+        	
+            <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha de Inicio: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+            android:id="@+id/txtFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>
+    	
+          <LinearLayout
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left">
+        	
+            <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha Atencion: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        	<TextView
+        	    android:id="@+id/txtFechaA"
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:text="Medium Text: "
+        	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    	</LinearLayout>
+    	
+           <LinearLayout
+        	android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:orientation="vertical">
+        	
+            <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Observaciones: "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/txtObsc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4" >
+
+            </MultiAutoCompleteTextView>
+
+    	</LinearLayout>
+    	
+        <Button
+            android:id="@+id/btnguardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="#CF3D2E"
+            android:text="GUARDAR"
+            android:textColor="#372E59"
+            android:textStyle="bold" />
+  		    	    
+    </LinearLayout>
